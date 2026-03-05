@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JC Inshu Water Refilling Station</title>
+
+  
+  <link rel="icon" href="4-24.jpg">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      background-color: #0a2a66;
+      font-family: 'Times New Roman', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    #loginSection {
+      background-color: #0a2a66;
+      width: 350px;
+      margin: 100px auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
+    }
+
+    #loginSection h2 {
+      color: white;
+    }
+
+    input[type="text"] {
+      width: 80%;
+      padding: 8px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      background-color: white;
+    }
+
+    button {
+      padding: 10px 25px;
+      background-color: white;
+      color: #0a2a66;
+      border: none;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e6e6e6;
+    }
+
+    
+
+    #myBusiness {
+      display: none;
+      background-color: white;
+      color: black;
+    }
+
+    header {
+      background-color: #0a2a66;
+      color: white;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #08306b;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      text-align: left;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    footer {
+      background-color: #0a2a66;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    img {
+      margin: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div id="loginSection">
+  <h2>Welcome to JC Inshu</h2>
+
+  <form onsubmit="document.getElementById('myBusiness').style.display='block'; document.getElementById('loginSection').style.display='none'; return false;">
+    
+    <p style="color:white;">Your Name:</p>
+    <input type="text" placeholder="Enter your name" required>
+    <br><br>
+
+    <button type="submit">Enter Store</button>
+
+  </form>
+</div>
+
+<div id="myBusiness">
+
+<header id="home">
+  <h1>JC Inshu Water Refilling Station</h1>
+  <p><i>Clean, refreshing water you can trust every day.</i></p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<section id="about">
+  <h2>About Our Business</h2>
+  <p>
+    JC Inshu Water Refilling Station provides clean and affordable water
+    for the community. We also sell household cleaning products to help
+    families maintain a clean and healthy home.
+  </p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+
+  <img src="SK68e94P.jpg">
+
+  <img src="9Q11INQJ.jpg" width="200" height="170"> 	 	
+
+  <ul>
+    <li>Dishwashing Liquid - ₱40</li>
+    <li>Toilet Bowl Cleaner - ₱55</li>
+    <li>Laundry Detergent Powder - ₱45</li>
+    <li>Laundry Liquid Detergent - ₱35</li>
+    <li>Tube Ice (per kilo) - ₱10</li>
+    <li>Water Refills (per gallon) - ₱25</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Phone: 09934200957 | 09936067745</p>
+  <p>Location: Beside Barangay Mangino</p>
+</section>
+
+</main>
+
+<footer>
+  <p>From: JC Inshu Water Refilling Station</p>
+</footer>
+
+</div>
+
+</body>
+</html>
